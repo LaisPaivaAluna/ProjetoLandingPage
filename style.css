@@ -83,6 +83,9 @@
 }
 
 #div-cards{
+  display: flex;
+  justify-content: center;     /* centraliza horizontalmente */
+  align-items: center;         /* alinha verticalmente */
   margin-top: 0px;
   display: flex;
   grid-auto-flow: column;
