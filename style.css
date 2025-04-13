@@ -85,11 +85,11 @@
  text-align: center;
   
 }
-#div-cards {
-  display: flex;
-  overflow-x: auto;
-  gap: 30px;
-  padding: 20px;
+
+#div-cards{
+  margin-top: 10px;
+  display: grid;
+  grid-auto-flow: column;
 }
 
 }
@@ -159,6 +159,9 @@ input{
   transform: translateY(-7px);
   box-shadow: 0px 15px 20px rgba(1, 44, 18, 0.822);
   transition-duration: 0.5s;
-
-
 }
+
+body{
+  overflow-x: hidden;
+}
+
