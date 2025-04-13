@@ -80,7 +80,6 @@ margin: 0px;
   margin-top: 10px;
   display: grid;
   grid-auto-flow: column;
-  overflow-x: auto;     /* permite rolagem horizontal */
 }
 
 .card{
