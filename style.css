@@ -160,26 +160,3 @@ input{
   box-shadow: 0px 15px 20px rgba(1, 44, 18, 0.822);
   transition-duration: 0.5s;
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Impede a rolagem horizontal */
-}
-
-.container {
-    width: 100%; /* A largura será de 100% da tela, mas com limite */
-    max-width: 1200px; /* Limita a largura máxima para telas grandes */
-    margin: 0 auto;  /* Centraliza o conteúdo */
-    padding: 20px; /* Ajuste o padding conforme necessário */
-}
-
-#video {
-    width: 100%; /* O vídeo ocupa 100% da largura da tela, mas com limite */
-    height: auto; /* Ajusta a altura proporcionalmente */
-}
-
-img {
-    max-width: 100%; /* As imagens não ultrapassam o tamanho do seu contêiner */
-    height: auto;
-}
