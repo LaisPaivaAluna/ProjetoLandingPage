@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagens/logo2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Finance Cursos</title>
+</head>
+<body>
+
+    <div id="menusupeior">
+        <img src="imagens\logo2.png" id="logo2" alt="carregando...">
+        <h1 id="titulo-menusupeior"> Transforme sua vida financeira com o conhecimento certo</h1>
+        <p id="texto-menusuperior"> A Finance Cursos é o seu ponto de partida para entender o mundo dos investimentos ,<br> sair do básico e aprender a fazer seu dinheiro render de verdade.<br>
+        Um curso completo, acessível e feito para quem quer resultados reais, mesmo começando do zero.</p>
+    </div>
+
+    <div id="menuinformacional">
+        <p class="textoinformativo"><img src="icones/certificado.png" class="icones" alt="">Certificado de conclusão</p>
+        <p class="textoinformativo"> <img src="icones/relogio.png"class="icones" alt=""> 4 Horas de conteúdo</p>
+        <p class="textoinformativo"> <img src="icones/camera.png" class="icones" alt=""> Aulas online gravadas</p>
+    </div>
+
+    <div id="secaovideo">
+        <video id="video" width="713" height="401" controls autoplay muted loop>
+        <source src="video/7580287-uhd-2160-4096-25fps_gaoPlsla (online-video-cutter.com).mp4" type="video/mp4">
+        </video><br><br>
+        <div>
+            <h1 id="titulovideo">Está pronto para mudar seu futuro financeiro?</h1><br><br>
+            <p id="textovideo">Com a Finance Cursos,você vai aprender de maneira simples e eficaz tudo o que precisa<br>
+               para começar a investir com confiança.<br>
+               Descubra técnicas exclusivas e aprenda com quem realmente entende do mercado financeiro.<br>
+               Não perca a chance de transformar sua relação com o dinheiro e alcançar a liberdade<br>
+               financeira que sempre sonhou!</p>
+        </div>
+    </div>
+    <div id="carrossel">
+        <h1 id="titulo-carrosel"><br><br>Histórias de sucesso com a Finance Curso</h1>
+      
+        <div id="div-cards">
+          <img id="setaesquerda" onclick="RolarParaEsquerda()"class="seta" src="./icones/setaesquerda.png" alt="">
+          <!-- DIVISAO DOS CARDS-->
+          <img id="depoimento1" class="card" src="./cards/depoimento1.png" alt="">
+          <img id="depoimento2" class="card" src="./cards/depoimento2.png" alt="">
+          <img id="depoimento3" class="card" src="./cards/depoimento3.png" alt="">
+          <img id="depoimento4" class="card" src="./cards/depoimento4.png" alt="">
+          <img id="setadireita" onclick="RolarParaDireita()" class="seta" src="./icones/setadireita.png" alt="">
+
+        </div>
+      </div>
+
+        <!--FORMULARIO-->
+      <div id="formulario">
+       <h1 id="titulo-formulario">Cadastre-se agora e receba gratuitamente uma apostila <br>
+        exclusiva que ensina como faturar mais de R$1.000 por mês!</h1> 
+        <form action="https://api.sheetmonkey.io/form/xhoudkE3LUphDJCEbsX67h" method="POST" >
+            <input type="text" placeholder="Nome"  name="Name" required> <br>
+            <input type="email" placeholder="Email" name="Email" required> <br>
+            <input type="number" placeholder="Telefone" name="Phone" required><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+             <button type="submit" id="button">Cadastre-se agora</button>
+        </form>
+      </div>
+
+      <script src="index.js"></script>
+
+</body>
+
+</html>
