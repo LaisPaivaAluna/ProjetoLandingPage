@@ -51,12 +51,14 @@
 }
 
 #titulovideo{
+  align-items: center;
   color: rgb(5, 36, 8);
   margin-top: 50px;
   font-size: 40px;
 }
 
 #textovideo{
+  align-items: center;
   font-size: 24px;
 }
 
