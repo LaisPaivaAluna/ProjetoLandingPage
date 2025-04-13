@@ -81,7 +81,7 @@
 
 #div-cards{
   margin-top: 0px;
-  display: grid;
+  display: flex;
   grid-auto-flow: column;
 }
 
