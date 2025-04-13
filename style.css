@@ -81,13 +81,17 @@ margin: 0px;
   margin-top: 10px;
   display: grid;
   grid-auto-flow: column;
+  overflow-x: auto;     /* permite rolagem horizontal */
+  white-space: nowrap;  /* impede quebra de linha */
+  scroll-behavior: smooth; /* animação ao rolar (se quiser usar setas) */
+  max-width: 100%;      /* impede ultrapassar o container pai */
 }
 
 .card{
-  width: 200px;
-  margin:35px;
-  margin-left:80px;
-  margin-top:100px;
+   width: 200px;
+  margin: 20px;
+  margin-top: 100px;
+  flex-shrink: 0; /* impede que os cards encolham */
  
 }
 
