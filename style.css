@@ -81,7 +81,6 @@ margin: 0px;
   display: grid;
   grid-auto-flow: column;
   overflow-x: auto;     /* permite rolagem horizontal */
-  white-space: nowrap;  /* impede quebra de linha */
   scroll-behavior: smooth; /* animação ao rolar (se quiser usar setas) */
 }
 
