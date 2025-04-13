@@ -21,15 +21,13 @@ margin: 0px;
   margin-top: 35px;
   padding-bottom: 100px;
   font-size: 24px;
-
 }
-
 
 #menusupeior{
   background-image: url(imagens/fundo-menusuperior.png);
   color: rgb(231, 231, 231)
-
 }
+
 #menuinformacional{
   background-color: rgba(3, 59, 3, 0.199);
   display: grid;
@@ -51,11 +49,9 @@ margin: 0px;
   display: flex;
   align-items: center;
   font-size: 24px;
-
 }
 
 #titulovideo{
-
   color: rgb(5, 36, 8);
   margin-top: 50px;
   font-size: 36px;
@@ -63,12 +59,10 @@ margin: 0px;
 
 #textovideo{
   font-size: 24px;
-
 }
 
 #video{
-
-  margin: 50px 25px 50px 100px;
+ margin: 50px 25px 50px 100px;
 }
 
 #carrossel{
@@ -78,9 +72,8 @@ margin: 0px;
   margin-top: 40px;
   }
   
-
 #titulo-carrosel{
-  color: aliceblue;
+ color: aliceblue;
  text-align: center;
 }
 
@@ -88,15 +81,13 @@ margin: 0px;
   margin-top: 10px;
   display: grid;
   grid-auto-flow: column;
-
 }
 
 .card{
   width: 500px;
   margin:35px;
   margin-left:80px;
-  margin-top: -90px;
-  
+  margin-top: -90px; 
 }
 
 #setaesquerda{
@@ -118,17 +109,14 @@ margin: 0px;
 transition-duration: o.5s;
 }
 
-
 #formulario{
   text-align: center;
-
 }
 
 #titulo-formulario{
   font-size: 34px;
   margin: 25px;
   color: black;
-
 }
 
 input{
@@ -151,8 +139,8 @@ input{
  margin-bottom: 50px;
  font-weight: bolder;
  cursor: pointer;
-
 }
+
 #button:hover{
   background-color: rgba(19, 58, 35, 0.418);
   color: aliceblue;
